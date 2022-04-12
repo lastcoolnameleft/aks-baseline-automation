@@ -753,6 +753,7 @@ module kubernetesConfigurationFlux '../CARML/Microsoft.KubernetesConfiguration/e
   name: 'flux'
   params: {
     name: 'flux'
+    location: location
     extensionType: 'microsoft.flux'
     clusterName: cluster.name
     autoUpgradeMinorVersion: true
