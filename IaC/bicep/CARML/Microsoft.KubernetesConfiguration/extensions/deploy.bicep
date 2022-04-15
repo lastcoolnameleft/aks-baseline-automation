@@ -67,7 +67,6 @@ resource extension 'Microsoft.KubernetesConfiguration/extensions@2022-03-01' = {
         targetNamespace: targetNamespace
       }
     }
-    version: !empty(version) ? version : null
   }
 }
 
